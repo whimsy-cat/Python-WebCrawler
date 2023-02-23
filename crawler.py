@@ -132,7 +132,7 @@ class Crawler(object):
         q.put((self.root, 0))
  
         while not q.empty():
-            this_url, depth = q.get()
+
             
             #Non-URL-specific filter: Discard anything over depth limit
             if depth > self.depth_limit:
