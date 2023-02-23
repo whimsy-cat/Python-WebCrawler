@@ -130,7 +130,7 @@ class Crawler(object):
         
         q = Queue()
         q.put((self.root, 0))
-
+ 
         while not q.empty():
             this_url, depth = q.get()
             
