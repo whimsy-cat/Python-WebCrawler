@@ -128,7 +128,7 @@ class Crawler(object):
         already fetched, and user-supplied criteria like maximum
         search depth are checked. """
         
-        q = Queue()
+        q = Queue() 
         q.put((self.root, 0))
  
         while not q.empty():
